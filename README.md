@@ -13,11 +13,13 @@ Proposed models:
 
 - 1D Convolutional Neural Network based model - A simple Deep Neural Network was designed for the classification task is reported operationally in the below fig. It is a simple One-Dimensional Convolutional Neural Network, containing 2 hidden layers.
 
-![image](https://github.com/Yash-Raghav/audioEmotionPrediction/assets/82383225/ac762650-dc4c-42ff-8869-6bad533656b4)
+![image](https://github.com/Yash-Raghav/Audio-Emotion-Prediction/assets/82383225/973798c1-ee4c-4a32-9052-3c1caac46e6c)
+
 
 - 2D LSTM - Among the variants of the RNN function, we LSTM based Neural Network. It is a simple network with 3 hidden layers as shown in the figure below:
 
-![image](https://github.com/Yash-Raghav/audioEmotionPrediction/assets/82383225/7465c981-eb7c-4a25-b602-d6b8519413ba)
+![image](https://github.com/Yash-Raghav/Audio-Emotion-Prediction/assets/82383225/910a0e72-239a-477a-ad85-59f287a59899)
+
 
 - 2D Mel-Spectrum based– Transfer Learning Model - Here we tested with pre-trained image recognition CNN models from the keras applications including VGG-16, VGG-19, Xception and Inception V3. Each of these models uses multiple 2D CNNs, pooling and Batch Normalization operations the layers. The final layers after freezing the pre-trained layers are as below:
 
